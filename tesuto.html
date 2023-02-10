@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>
+        Meongfood
+    </title>
+    <link rel="stylesheet" href="dist/outputtesuto.css"/>
+
+    <style>
+      .gradient {
+        background: linear-gradient(90deg, #3F8080 0%, #3F8080 100%);
+      }
+    </style>
+  </head>
+    <!-- npx tailwindcss -i ./src/inputtesuto.css -o ./dist/outputtesuto.css --watch -->
+  <body class="leading-normal tracking-normal text-black gradient  ">
+    <!--Nav-->
+    <header class="bg-white fixed top-0 left-0 w-full flex items-center z-10 py-2 pl-8">
+      <div class="container">
+          <div class="flex items-center justify-between relative">
+              <div class="px-4">
+                  <a href="tesuto.html" class="text-black transition duration-300 hover:text-secondary text-2xl  lg:text-3xl font-headerf" >MEONGKU</a>
+              </div>
+              <div class="flex items-center px-4">
+                  <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden ">
+                      <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                      <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                      <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                  </button>
+                  <nav id="nav-menu" class="hidden absolute py-4 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none  lg:rounded-none">
+                    <ul class="block  lg:flex">
+                      <li class="group">
+                        <a href="produk.html#dryfood" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary font-headerf transition ">Makanan Kering</a>
+                      </li>
+                      <li class="group">
+                        <a href="produk.html#wetfood" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary font-headerf transition ">Makanan Basah</a>
+                      </li> 
+                      <li class="group">
+                        <a href="tentang.html" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary font-headerf transition ">Tentang</a>
+                      </li> 
+                    </ul>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+    
+    <!--Hero-->
+    
+    <div class="pt-24" id="hero">
+      <div class="container px-10 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <!--Left Col-->
+        <div class="mr-14 flex flex-col w-full md:w-2/5 justify-center text-center md:text-left ">
+        
+          <h1 class="my-4 text-5xl font-main text-white">
+            <span class="text-secondary">MEONGKU</span> MAKANAN KUCING
+          </h1>
+          <p class="text-tertiary leading-3 text-5xl font-sec mb-8">
+            Bekualitas!
+          </p>
+          <p class="text-white font-coco font-semibold mb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, ducimus iste!
+          </p>
+          <a href="produk.html" class="mx-auto lg:mx-0  bg-tertiary text-primary font-bold font-headerf rounded-xl my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out flex ">
+            Lihat Produk ➡
+          </a>
+        </div>
+        <!--Right Col-->
+        <div class="w-full md:w-2/5 mx-auto mr-14  ">
+          <img class=" md:w-full z-50" src="herolg.png" />
+        </div>
+      </div>
+    </div>
+    <!-- hero end -->
+
+    <div class=" mt-6 bg-white">
+      <div class=" mx-auto  align-middle w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+          <img class=" md:w-full z-50" src="banner_3.png" />
+      </div>
+    </div>
+          
+    <section class="bg-secondary border-b py-8">
+      <div class="container max-w-5xl mx-auto m-8">
+        <h2 class="w-full my-2 text-5xl leading-tight text-center font-sec text-white">
+          2 pilihan jenis makanan
+        </h2>
+
+        
+        <div class="flex flex-wrap">
+          <div class="w-full sm:w-1/2 p-6 ">
+            <img class="w-full sm:h-64 mx-auto" src="src/whiskas_xl.png" alt="royalc_h">
+            <h2 class="my-2 text-2xl text-center font-main pt-5 text-tertiary">
+              MAKANAN KERING
+            </h2>
+            <h3 class="my-2 text-2xl text-center text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, laudantium!
+            </h3>
+            
+          </div>
+          <div class="w-full sm:w-1/2 p-6 ">
+            <img class="w-full sm:h-64 mx-auto" src="src/royalc_xl.png" alt="royalc_h">
+            <h2 class="my-2 text-2xl text-center font-main pt-5 text-tertiary">
+              MAKANAN BASAH
+            </h2>
+            <h3 class="my-2 text-2xl text-center text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </h3>
+          </div> 
+        </div>
+        </div>
+    </section>
+
+    <section class="bg-white border-b container mx-auto text-center py-6 mb-12">
+      <h3 class="pt-12 text-3xl leading-tight mx-auto ">
+          Review pelanggan <span class="font-main text-secondary"><br> MEONGKU</span> 
+      </h3>
+    <div class="container mx-auto flex flex-wrap">
+      
+      <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+          <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+              <div class="w-full font-bold text-xl text-gray-800 px-6">
+                  Daniel
+                </div>
+            <p class="w-full text-xs md:text-sm px-6 py-4">
+              ⭐⭐⭐⭐⭐
+            </p>
+            
+            <p class="text-gray-800 text-base px-6 mb-5">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                <div class="w-full font-bold text-xl text-gray-800 px-6">
+                    Sutisna
+                  </div>
+              <p class="w-full text-xs md:text-sm px-6 py-4">
+                ⭐⭐⭐⭐⭐
+              </p>
+              
+              <p class="text-gray-800 text-base px-6 mb-5">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                <div class="w-full font-bold text-xl text-gray-800 px-6">
+                    Abdul Hakim
+                  </div>
+              <p class="w-full text-xs md:text-sm px-6 py-4">
+                ⭐⭐⭐⭐⭐
+              </p>
+              
+              <p class="text-gray-800 text-base px-6 mb-5">
+                Pengiriman cepat, gratis ongkir, pengiriman cepat, gratis ongkir
+              </p>
+            </a>
+          </div>
+        </div>
+        </section>
+
+    
+    <footer class="bg-white container mx-auto text-center py-6 mb-12">
+      <div class="container mx-auto px-8">
+        <div class="w-full flex flex-col md:flex-row py-6">
+          <div class="flex-1 mb-6">
+            <h1 class="mb-4 text-3xl font-main text-primary">
+                <span class="text-secondary">MEONGKU</span> MAKANAN KUCING
+              </h1>
+              <p class="text-tertiary leading-3 text-3xl font-sec mb-8">
+                Bekualitas!
+              </p>
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Links</p>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Social</p>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Company</p>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="container mx-auto text-center py-6">
+        <a href="#" class="text-white">Created by Mirza - assidiqiemirza@gmail.com</a>
+    </section>
+    <script src="dist/js/script.js "></script>
+  </body>
+
+</html>

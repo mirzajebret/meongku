@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>
+        Meongfood
+    </title>
+    <link rel="stylesheet" href="dist/outputtesuto.css"/>
+
+    <style>
+      .gradient {
+        background: linear-gradient(90deg, #3F8080 0%, #3F8080 100%);
+      }
+    </style>
+  </head>
+    <!-- npx tailwindcss -i ./src/inputtesuto.css -o ./dist/outputtesuto.css --watch -->
+  <body class="leading-normal tracking-normal text-black gradient  ">
+    <!--Nav-->
+    <header class="bg-white fixed top-0 left-0 w-full flex items-center z-10 py-2 pl-8">
+      <div class="container">
+          <div class="flex items-center justify-between relative">
+              <div class="px-4">
+                  <a href="tesuto.html" class="text-black transition duration-300 hover:text-secondary text-2xl  lg:text-3xl font-headerf">MEONGKU</a>
+              </div>
+              <div class="flex items-center px-4">
+                  <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden ">
+                      <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                      <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                      <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                  </button>
+                  <nav id="nav-menu" class="hidden absolute py-4 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none  lg:rounded-none">
+                    <ul class="block  lg:flex">
+                      <li class="group">
+                        <a href="produk.html#dryfood" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary font-headerf transition ">Makanan Kering</a>
+                      </li>
+                      <li class="group">
+                        <a href="produk.html#wetfood" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary font-headerf transition ">Makanan Basah</a>
+                      </li> 
+                      <li class="group">
+                        <a href="tentang.html" class="text-base text-primary py-2 mx-8 flex group-hover:text-primary font-headerf transition ">Tentang</a>
+                      </li> 
+                    </ul>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+    
+    <!--Hero-->
+    
+    <div class="pt-24" id="hero">
+      <div class="container px-10 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <!--Left Col-->
+        <div class="mr-14 flex flex-col w-full md:w-2/5 justify-center text-center md:text-left ">
+        
+          <h1 class="my-4 text-5xl font-main text-white">
+            <span class="text-secondary">TENTANG</span> KAMI
+          </h1>
+
+          <p class="text-white font-coco font-light mb-8 text-justify">
+            Meongku adalah tempat yang tepat untuk memenuhi semua kebutuhan nutrisi kucing Anda. Kami percaya bahwa setiap kucing merebutkan kualitas hidup yang sehat dan bahagia, dan itulah yang kami tawarkan. Melalui penawaran produk makanan kucing kering dan basah terbaik, kami berkomitmen untuk memberikan nutrisi yang sempurna untuk setiap tahap kehidupan kucing Anda. Bersama-sama, kita dapat memastikan bahwa kucing Anda selalu memiliki hidup yang sehat dan bahagia.
+          </p>
+          
+        </div>
+        <!--Right Col-->
+        <div class="w-full md:w-2/5 mx-auto mr-14  bg-white">
+          <img class=" md:w-full z-50" src="src/WE.jpg" />
+          <img class=" md:w-full z-50 pt-2" src="src/WE2.jpg" />
+        </div>
+      </div>
+    </div>
+    <!-- hero end -->
+    <div class=" mt-6 bg-white">
+      <div class=" mx-auto  align-middle w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+          <img class=" md:w-full z-50" src="banner_3.png" />
+      </div>
+    </div>
+     <section class="container mx-auto text-center py-6 mb-12">
+     
+      
+      
+    <section class="bg-white border-b">
+        <h3 class="pt-12 text-3xl leading-tight ">
+            Review pelanggan <span class="font-main text-secondary"><br> MEONGKU</span> 
+        </h3>
+      <div class="container mx-auto flex flex-wrap">
+        
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                <div class="w-full font-bold text-xl text-gray-800 px-6">
+                    Daniel
+                  </div>
+              <p class="w-full text-xs md:text-sm px-6 py-4">
+                ⭐⭐⭐⭐⭐
+              </p>
+              
+              <p class="text-gray-800 text-base px-6 mb-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+              <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                  <div class="w-full font-bold text-xl text-gray-800 px-6">
+                      Sutisna
+                    </div>
+                <p class="w-full text-xs md:text-sm px-6 py-4">
+                  ⭐⭐⭐⭐⭐
+                </p>
+                
+                <p class="text-gray-800 text-base px-6 mb-5">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+              </a>
+            </div>
+          </div>
+
+          <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+              <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                  <div class="w-full font-bold text-xl text-gray-800 px-6">
+                      Abdul Hakim
+                    </div>
+                <p class="w-full text-xs md:text-sm px-6 py-4">
+                  ⭐⭐⭐⭐⭐
+                </p>
+                
+                <p class="text-gray-800 text-base px-6 mb-5">
+                  Pengiriman cepat, gratis ongkir, pengiriman cepat, gratis ongkir
+                </p>
+              </a>
+            </div>
+          </div>
+          </section>
+        
+    <!-- Change the colour #f8fafc to match the previous section colour -->
+     
+
+        <footer class="bg-white">
+            <div class="container mx-auto px-8">
+              <div class="w-full flex flex-col md:flex-row py-6">
+                <div class="flex-1 mb-6">
+                  <h1 class="mb-4 text-3xl font-main text-primary">
+                      <span class="text-secondary">MEONGKU</span> MAKANAN KUCING
+                    </h1>
+                    <p class="text-tertiary leading-3 text-3xl font-sec mb-8">
+                      Bekualitas!
+                    </p>
+                </div>
+                <div class="flex-1">
+                  <p class="uppercase text-gray-500 md:mb-6">Links</p>
+                  <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="flex-1">
+                  <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+                  <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="flex-1">
+                  <p class="uppercase text-gray-500 md:mb-6">Social</p>
+                  <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="flex-1">
+                  <p class="uppercase text-gray-500 md:mb-6">Company</p>
+                  <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                      <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <section class="container mx-auto text-center py-6">
+              <a href="#" class="text-white">Created by Mirza - assidiqiemirza@gmail.com</a>
+          </section>
+          <script src="dist/js/script.js "></script>
+        </body>
+      
+      </html>
